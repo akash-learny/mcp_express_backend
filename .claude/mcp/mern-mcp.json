@@ -1,0 +1,6 @@
+{
+    "name": "mern-mcp",
+    "command": "node",
+    "args": ["./mcp/server.js"]
+}
+  

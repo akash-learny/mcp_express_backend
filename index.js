@@ -17,7 +17,7 @@ import laboratory from './routes/laboratory.js';
 import script from './routes/script.js';
 
 const app = express();
-dotenv.config()
+dotenv.config({ quiet: true })
 app.use(express.json());
 app.use(cors());
 
